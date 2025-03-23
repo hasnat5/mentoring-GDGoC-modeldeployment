@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 import plotly.express as px
+import streamlit as st 
  
 # Synthetic generation of data examples for training the model
 def generate_house_data(n_samples=100):
